@@ -2,6 +2,16 @@
 
 AdServer is a program which fetches Ad script from the server which fetches image from server and paste it into div
 
+## How to run
+
+1. Go to frontend folder
+2. Open index.html in the browser (*Make sure no AdBlocker is active in the browser*)
+3. Press F12, Open Network tab to see loaded files:
+    * **index.html**   
+    * **getjs** Load external script to fetch minified js code
+    * **get-image** Load image url using xhr request written in above js code 
+    * **logo-header.png** Get image from url given from above request
+
 ## Components
 
 Project consist of two parts:
