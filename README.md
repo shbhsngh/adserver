@@ -22,7 +22,7 @@ Project consist of two parts:
 
 * Backend is developed in nodejs with express framework and jade view templating engine.
 * Runs on 3000 port (internally)
-* Public IP of backend server: http://178.128.130.194
+* Public IP of backend server: https://warm-wave-66224.herokuapp.com/
 * ### Routes
     * **Get JS**  */render/getjs*
         * This endpoint will get js code which will be executed on browser to get imge from below endpoint.
